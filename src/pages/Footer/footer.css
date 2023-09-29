@@ -1,0 +1,67 @@
+.footer {
+    background: #fff;
+}
+
+.footer .box-conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.footer .box-conteiner .box h3 {
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+
+.footer .box-conteiner .box .links {
+    display: block;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-conteiner .box .links i {
+    color: var(--red);
+    padding-right: .5rem;
+}
+
+.footer .box-conteiner .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-conteiner .box p {
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-conteiner .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    color: var(--black);
+    margin-left: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-conteiner .box .share a:hover {
+    background: var(--red);
+    color: #fff;
+}
+
+
+.footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    border-top: var(--boarder);
+}
+
+.footer .credit span {
+    color: var(--red);
+}

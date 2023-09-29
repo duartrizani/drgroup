@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,400;1,500&display=swap');
+
+:root {
+
+    --red: #83111a;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    --boarder: .2rem solid rgba(0, 0, 0, .1);
+    --outline: .1rem solid rgba(0, 0, 0, .1);
+    --outline-hover: .2rem solid var(--black)
+}
+
+
+.workapp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 5% 0 5%;
+    background: #eee;
+    outline-offset: -5px;
+    text-align: center;
+    height: auto;
+    background-image: url("./../../assets/rreth 1.svg"), url("./../../assets/rreth 2.svg");
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position:left top, left bottom ;
+    height: 80rem;
+}
+.workimg{
+    object-fit: cover;
+}
+.workimg img{
+    object-fit: cover;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+
+.aboutus{
+    display: flex;
+}
+.container h1{
+    font-size: 35px;
+}
+.apliko h3{
+    line-height: 1.8;
+    color: var(--black);
+}
+.apliko p{
+    color: var(--light-color);
+    padding: 2rem 1rem;
+    line-height: 1.8;
+}
+
+.aplikobtn{
+    display: inline-block;
+    padding: 15px 5rem;
+    font-size: 1.7rem;
+    border-radius: 32.5rem;
+    border: .2rem solid var(--red);
+    color: #fff;
+    cursor: pointer;
+    background: var(--red);
+}
+
+
+.aplikobtn:hover {
+    background-color: transparent;
+}
+
+
+@media (max-width:640px) {
+    .workapp{
+        background-image: url("./../../assets/rreth 1.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:left top;
+    }
+}
+
+@media (max-width:1024px) {
+    .workapp{
+        height: auto;
+    }
+}

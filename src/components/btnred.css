@@ -1,0 +1,16 @@
+
+.btnred{
+    display: inline-block;
+    padding: 15px 5rem;
+    font-size: 1.7rem;
+    border-radius: 32.5rem;
+    border: .2rem solid var(--red);
+    color: #fff;
+    cursor: pointer;
+    background: var(--red);
+}
+
+.btnred:hover {
+    background: white;
+    color: var(--red);
+}

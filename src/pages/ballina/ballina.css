@@ -1,0 +1,12 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,600;1,400;1,500&display=swap');
+ 
+
+
+
+.ballina{
+  background-image: url("./../../assets/ballina 1.svg");
+  background-size: cover;
+  background-position: right top;
+  transform: translate3d(0,0,-1px);
+  padding: 0 5% 0 5%;
+}
